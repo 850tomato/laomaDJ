@@ -1,0 +1,176 @@
+# ===================
+# 操作系统生成文件
+# ===================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ===================
+# IDE/编辑器 配置文件
+# ===================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA / PyCharm / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===================
+# 依赖和包管理目录
+# ===================
+# Node.js (npm/yarn/pnpm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json    # 如果是库项目建议忽略，应用项目建议保留
+yarn.lock            # 同上
+pnpm-lock.yaml       # 同上
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+
+# Java (Maven/Gradle)
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+/bin/
+
+# PHP
+/vendor/
+composer.phar
+composer.lock
+
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# .NET
+/bin/
+/obj/
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# ===================
+# 日志和数据库文件
+# ===================
+*.log
+*.pid
+*.seed
+*.sqlite
+*.db
+*.mdb
+
+# ===================
+# 环境变量和敏感信息
+# ===================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.crt
+*.p12
+secrets.yml
+config/secrets.yml
+
+# ===================
+# 构建产物和临时文件
+# ===================
+/dist/
+/build/
+/temp/
+/tmp/
+*.tmp
+*.temp
+*.cache
+*.lck
+
+# ===================
+# 特定于测试和覆盖率
+# ====================
+/coverage/
+.nyc_output/
+.jest/
+*.lcov
+testem.log
+
+# ===================
+# 压缩包 (一般建议忽略，除非是源码资源)
+# ===================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# ===================
+# Docker 相关 (生成的文件)
+# ===================
+docker-compose.override.yml
+.dockerignore
